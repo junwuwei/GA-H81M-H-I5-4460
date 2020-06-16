@@ -107,7 +107,9 @@
 			<key>PciRoot(0x0)/Pci(0x1b,0x0)</key>
 			<dict>
 				<key>layout-id</key>
-				<integer>7</integer>
+				<data>BQAAAA==</data>
+				<key>device-id</key>
+				<data>cKEAAA==</data>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
@@ -301,6 +303,22 @@
 				<key>BundlePath</key>
 				<string>RtWlanU1827.kext</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+				<key>Enabled</key>
+				<true/>
+				<key>MinKernel</key>
+				<string></string>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/MacProMemoryNotificationDisabler</string>
+				<key>BundlePath</key>
+				<string>MacProMemoryNotificationDisabler.kext</string>
+			</dict>
 		</array>
 		<key>Block</key>
 		<array>
@@ -351,10 +369,6 @@
 	</dict>
 	<key>Misc</key>
 	<dict>
-		<key>BlessOverride</key>
-		<array>
-			<string>\EFI\Microsoft\Boot\bootmgfw.efi</string>
-		</array>
 		<key>Boot</key>
 		<dict>
 			<key>HibernateMode</key>
@@ -368,7 +382,7 @@
 			<key>PickerAudioAssist</key>
 			<false/>
 			<key>PickerMode</key>
-			<string>External</string>
+			<string>Builtin</string>
 			<key>PollAppleHotKeys</key>
 			<false/>
 			<key>ShowPicker</key>
@@ -390,6 +404,8 @@
 			<integer>2147483650</integer>
 			<key>Target</key>
 			<integer>67</integer>
+			<key>DisplayDelay</key>
+			<integer>0</integer>
 		</dict>
 		<key>Entries</key>
 		<array>
@@ -417,13 +433,15 @@
 			<key>AuthRestart</key>
 			<false/>
 			<key>BootProtect</key>
-			<string></string>
+			<string>None</string>
 			<key>ExposeSensitiveData</key>
 			<integer>6</integer>
 			<key>ScanPolicy</key>
 			<integer>0</integer>
 			<key>Vault</key>
 			<string>Optional</string>
+			<key>HaltLevel</key>
+			<integer>2147483648</integer>
 		</dict>
 		<key>Tools</key>
 		<array>
@@ -485,7 +503,7 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
-				<string>-v npci=0x2000 keepsyms=1 debug=0x100  alcid=1</string>
+				<string>-v npci=0x2000 debug=0x100  alcid=1</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
@@ -660,7 +678,7 @@
 			<key>ReleaseUsbOwnership</key>
 			<false/>
 			<key>RequestBootVarFallback</key>
-			<false/>
+			<true/>
 			<key>RequestBootVarRouting</key>
 			<true/>
 			<key>UnblockFsConnect</key>
