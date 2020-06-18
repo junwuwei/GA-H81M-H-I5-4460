@@ -130,14 +130,16 @@
 			<key>PciRoot(0x0)/Pci(0x1B,0x0)</key>
 			<dict>
 				<key>layout-id</key>
-				<data>AQAAAA==</data>
+				<data>CwAAAA==</data>
 				<key>device-id</key>
 				<data>cKEAAA==</data>
+				<key>alc-layout-id</key>
+				<data>CwAAAA==</data>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
-				<data>AACbPg==</data>
+				<data>AwAiDQ==</data>
 			</dict>
 		</dict>
 	</dict>
@@ -532,7 +534,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-v npci=0x2000 keepsyms=1 debug=0x100  alcid=1</string>
+				<string>-v npci=0x2000 keepsyms=1 debug=0x100  alcid=99</string>
 				<key>csr-active-config</key>
 				<data>5wMAAA==</data>
 				<key>prev-lang:kbd</key>
@@ -573,17 +575,17 @@
 			<key>AdviseWindows</key>
 			<true/>
 			<key>MLB</key>
-			<string>F5K033310J9K3F7UE</string>
+			<string>D254266004NFM591F</string>
 			<key>ROM</key>
-			<data>ESIzRFVm</data>
+			<data>ESIzAAAA</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemProductName</key>
-			<string>MacPro7,1</string>
+			<string>iMac14,1</string>
 			<key>SystemSerialNumber</key>
-			<string>F5KD72YFP7QM</string>
+			<string>D25MXTYSFWJH</string>
 			<key>SystemUUID</key>
-			<string>CBC66C85-689B-4949-A3AC-5A7F75574815</string>
+			<string>263734B9-5B8A-40FE-B5DF-797E2F42AB7E</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
