@@ -42,8 +42,7 @@
 			</dict>
 		</array>
 		<key>Patch</key>
-		<array>
-		</array>
+		<array/>
 		<key>Quirks</key>
 		<dict>
 			<key>FadtEnableReset</key>
@@ -130,10 +129,10 @@
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
-				<key>device-id </key>
+				<key>device-id</key>
 				<data>EgQAAA==</data>
 				<key>AAPL,ig-platform-id</key>
-				<data>DSIAAw==</data>
+				<data>AWYAAw==</data>
 			</dict>
 		</dict>
 	</dict>
@@ -342,8 +341,7 @@
 			<data></data>
 		</dict>
 		<key>Patch</key>
-		<array>
-		</array>
+		<array/>
 		<key>Quirks</key>
 		<dict>
 			<key>AppleCpuPmCfgLock</key>
@@ -381,8 +379,7 @@
 	<key>Misc</key>
 	<dict>
 		<key>BlessOverride</key>
-		<array>
-		</array>
+		<array/>
 		<key>Boot</key>
 		<dict>
 			<key>ConsoleAttributes</key>
@@ -424,8 +421,7 @@
 			<integer>67</integer>
 		</dict>
 		<key>Entries</key>
-		<array>
-		</array>
+		<array/>
 		<key>Security</key>
 		<dict>
 			<key>AllowNvramReset</key>
@@ -528,7 +524,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-v  alcid=99</string>
+				<string>-v debug=0x100    alcid=11</string>
 				<key>csr-active-config</key>
 				<data>5wMAAA==</data>
 				<key>prev-lang:kbd</key>
@@ -536,10 +532,7 @@
 			</dict>
 		</dict>
 		<key>Delete</key>
-		<dict>
-			<key>nvda_drv</key>
-			<data></data>
-		</dict>
+		<dict/>
 		<key>LegacyEnable</key>
 		<true/>
 		<key>LegacyOverwrite</key>
@@ -548,8 +541,10 @@
 		<dict>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<array>
+				<string>EFILoginHiDPI</string>
 				<string>efi-boot-device</string>
 				<string>efi-boot-device-data</string>
+				<string>flagstate</string>
 			</array>
 			<key>8BE4DF61-93CA-11D2-AA0D-00E098032B8C</key>
 			<array>
@@ -561,7 +556,7 @@
 			</array>
 		</dict>
 		<key>WriteFlash</key>
-		<false/>
+		<true/>
 	</dict>
 	<key>PlatformInfo</key>
 	<dict>
@@ -729,8 +724,7 @@
 			<false/>
 		</dict>
 		<key>ReservedMemory</key>
-		<array>
-		</array>
+		<array/>
 	</dict>
 </dict>
 </plist>
