@@ -17,7 +17,7 @@
   |MacProMemoryNotificationDisabler.kext|  取消内存限制提示|||
   |NVMeFix.kext|为 NVME 硬盘增加 ASPT 属性来保证节电|0|https://github.com/acidanthera/NVMeFix|
 
-
+https://cdn.jsdelivr.net/gh/wargodz009/opencore-i5-4460-h81m-k/OC/config.plist
 https://github.com/paolo-projects/auto-unlocker
 https://github.com/headkaze/AppleIntelInfo
 https://github.com/daliansky/OC-little/tree/master/04-操作系统补丁
@@ -37,3 +37,15 @@ https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.IntelHD.cn.m
 
 https://tieba.baidu.com/p/5849714508
 
+
+
+终端的反编译命令：
+cd “你存放DSDT和SSDT的文件夹名”
+iasl -da -dl *.aml
+
+
+dsl convert to aml
+
+iasl *.dsl
+
+https://github.com/Narizgnaw/MyOpenwrt

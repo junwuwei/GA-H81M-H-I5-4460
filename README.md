@@ -12,14 +12,16 @@
 | 硬盘     | 120G SSD |
 | 显卡     | Intel HD Graphics 4600 Haswell |
 | 显示器   | 21 英寸 FHD 1920x1080   |
-| 声卡     | 瑞昱 Realtek ALC887     |
-| 板载网卡  |  瑞昱 RTL8111           |
+| 声卡     | 瑞昱 Realtek ALC887 |
+| 板载网卡  |  瑞昱 PCI GBE Family Controller  千兆网|
 | USB无线网卡 | TP-LINK TL-WDN7200H |
 |OpenCore| 0.5.9|
 - 因 Acidanthera 开发组的驱动不再对 Clover 做兼容性测试 , 放弃 Clover , 使用 OpenCore 引导方案
 - 参考 [opencore-i5-4460-h81m-k](https://github.com/wargodz009/opencore-i5-4460-h81m-k/)
 - 参考 [GA-H81M-H-Hackintosh](https://github.com/xlivans/GA-H81M-H-Hackintosh/)
+- ALC 887
 
+  0x100202, 0x100302, layout 1, 2, 3, 5, 7, 11, 13, 17, 18, 20, 33, 40, 50, 52, 53, 87, 99
 - 驱动 声卡的 Layout_ID 选择，看你的声音输出插口颜色，根据自己的颜色排序来定位ID
   
   LayoutID = 11 : 3 ports supported (Pink, Green, Blue) (Note : without auto-switch , you have to manually select between output/input device's) Codec Address : 0
