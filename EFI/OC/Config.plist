@@ -42,9 +42,11 @@
 			</dict>
 		</array>
 		<key>Delete</key>
-		<array/>
+		<array>
+		</array>
 		<key>Patch</key>
-		<array/>
+		<array>
+		</array>
 		<key>Quirks</key>
 		<dict>
 			<key>FadtEnableReset</key>
@@ -336,7 +338,8 @@
 			</dict>
 		</array>
 		<key>Block</key>
-		<array/>
+		<array>
+		</array>
 		<key>Emulate</key>
 		<dict>
 			<key>Cpuid1Data</key>
@@ -345,7 +348,8 @@
 			<data></data>
 		</dict>
 		<key>Patch</key>
-		<array/>
+		<array>
+		</array>
 		<key>Quirks</key>
 		<dict>
 			<key>AppleCpuPmCfgLock</key>
@@ -383,7 +387,8 @@
 	<key>Misc</key>
 	<dict>
 		<key>BlessOverride</key>
-		<array/>
+		<array>
+		</array>
 		<key>Boot</key>
 		<dict>
 			<key>ConsoleAttributes</key>
@@ -425,7 +430,8 @@
 			<integer>67</integer>
 		</dict>
 		<key>Entries</key>
-		<array/>
+		<array>
+		</array>
 		<key>Security</key>
 		<dict>
 			<key>AllowNvramReset</key>
@@ -526,7 +532,7 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>SystemAudioVolume</key>
-				<data>Rg==</data>
+				<data>YA==</data>
 				<key>boot-args</key>
 				<string>-v debug=0x100    alcid=11</string>
 				<key>csr-active-config</key>
@@ -728,7 +734,8 @@
 			<false/>
 		</dict>
 		<key>ReservedMemory</key>
-		<array/>
+		<array>
+		</array>
 	</dict>
 </dict>
 </plist>
