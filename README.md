@@ -23,7 +23,13 @@
 
   0x100202, 0x100302, layout 1, 2, 3, 5, 7, 11, 13, 17, 18, 20, 33, 40, 50, 52, 53, 87, 99
 - 驱动 声卡的 Layout_ID 选择，看你的声音输出插口颜色，根据自己的颜色排序来定位ID
-  
+  LayoutID = 1  : 支持885，887，888，892，898，1150，1220
+                  Realtek ALC audio(默认，1/2/3/5/6主板音频端口)
+  LayoutID = 2  : 支持887，888。889。892。898。1150，1120
+                  Realtek ALC/5.1声道（3主板音频端口，2进/1出变3出）
+  LayoutID = 3  : 支持887，888，889，892，898，1150
+                  带有Realtek ALC 音频的HD3000/HD4000 HDMI音频
+                                                  
   LayoutID = 11 : 3 ports supported (Pink, Green, Blue) (Note : without auto-switch , you have to manually select between output/input device's) Codec Address : 0
   
   LayoutID = 13 : 5/6 ports supported (Grey, Black, Laranja, Pink, Green, Blue) Codec Address : 0

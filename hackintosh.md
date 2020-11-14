@@ -10,8 +10,8 @@
   |SMCProcessor.kext|Cpu核传感器|0|https://github.com/acidanthera/VirtualSMC/|
   |SMCSuperIO.kext|IO传感器|0|https://github.com/acidanthera/VirtualSMC/|
   |USBInjectAll.kext|USB驱动|0.7.5|https://github.com/RehabMan/OS-X-USB-Inject-All https://github.com/Sniki/OS-X-USB-Inject-All|
-  |RealtekRTL8111.kext|有线网卡|2.3.0d7|https://github.com/Mieze/RTL8111_driver_for_OS_X|
-  |RealtekRTL8100.kext|有线网卡|0|https://github.com/Mieze/RTL8111_driver_for_OS_X|
+  |RealtekRTL8111.kext|有线网卡 支持Realtek RTL8111/8168 B/C/D/E/F/G/H|2.3.0d7|https://github.com/Mieze/RTL8111_driver_for_OS_X|
+  |RealtekRTL8100.kext|有线网卡 RTL8107E、RTL810X、RTL8139|0|https://github.com/Mieze/RTL8111_driver_for_OS_X|
   |RtWlanU.kext|usb无线网卡|0|https://github.com/chris1111/Wireless-USB-Adapter|
   |RtWlanU1827.kext|usb无线网卡|0|https://github.com/chris1111/Wireless-USB-Adapter|
   |MacProMemoryNotificationDisabler.kext|  取消内存限制提示|||
@@ -49,3 +49,8 @@ dsl convert to aml
 iasl *.dsl
 
 https://github.com/Narizgnaw/MyOpenwrt
+
+
+
+MacOS 不允许未知来源开发者的应用
+sudo spctl --master-disable
