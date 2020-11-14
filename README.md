@@ -41,6 +41,8 @@
 - 注意 安装时不要使用 VGA 接口,否则核显不能正常驱动，因为我只有VGA的显示器，临时用客厅的电视HDMI驱动了核显。 
 - https://github.com/chris1111/Wireless-USB-Adapter/
 
+- https://github.com/IOIIIO/MacProMemoryNotificationDisabler
+
 ## 鸣谢
 - **宪武** 提供 [OC-little](https://github.com/daliansky/OC-little)
 - **Acidanthera** 提供 [OpenCore](https://github.com/acidanthera/OpenCorePkg) 和 [相关驱动](https://github.com/acidanthera)
