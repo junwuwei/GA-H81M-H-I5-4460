@@ -408,8 +408,6 @@
 			<true/>
 			<key>DisableRtcChecksum</key>
 			<false/>
-			<key>DummyPowerManagement</key>
-			<false/>
 			<key>ExternalDiskIcons</key>
 			<false/>
 			<key>IncreasePciBarSize</key>
@@ -482,8 +480,6 @@
 			<true/>
 			<key>AuthRestart</key>
 			<false/>
-			<key>BlacklistAppleUpdate</key>
-			<true/>
 			<key>BootProtect</key>
 			<string>Bootstrap</string>
 			<key>ExposeSensitiveData</key>
